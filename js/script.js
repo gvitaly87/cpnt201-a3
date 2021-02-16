@@ -36,6 +36,7 @@ const watchColor = document.querySelector('#watch-color');
 const faceColor = document.querySelector('#face-color');
 const handColor = document.querySelector('#hand-color');
 
+/* Sets the :root css variable(cssVar) to a random color */
 function changeColor(cssVar) {
     const root = document.querySelector(':root');
     const randomColor = Math.floor(Math.random()*16777215).toString(16);
@@ -44,6 +45,7 @@ function changeColor(cssVar) {
     root.style.setProperty(cssVar, `#${randomColor}`);
 }
 
+/* Event Listeners for the three buttons */
 watchColor.addEventListener('click', function(){
     changeColor('--watch-body-color')
 });
