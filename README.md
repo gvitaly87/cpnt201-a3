@@ -13,7 +13,8 @@ The color is adjusted using three main buttons. One button controls the watch's 
 
 ---
 ## Honorable Mentions
-* Dustin - for quality control - "clicking the shit out of it in Firefox and in Chrome" 
+* Dustin - for quality control - "clicking the shit out of it in Firefox and in Chrome"
+* Kyle - quality control 
 
 ---
 ## Attributions
