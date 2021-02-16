@@ -32,8 +32,8 @@ h1 {
 
 }
 
-.clockbox,
-#clock {
+.watch-container,
+#pocket-watch {
     width: 80%;
     max-height: 80vh;
 }
