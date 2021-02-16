@@ -1,4 +1,4 @@
-# CPNT201 - Assignment 3 - Raster Image Optimization
+# CPNT201 - Assignment 3 - SVG Graphic
 ## General Information
 * Course: CPNT-201 Web Design Tools and Techniques
 * Author: [Vitaly Gins](https://github.com/gvitaly87) - Repository owner and maintainer.
