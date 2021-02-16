@@ -1,8 +1,14 @@
 /* Layout */
 :root {
+    /* Watch color variables*/
     --watch-face-color: hsl(46, 77%, 57%);
     --handle-color: hsl(202, 85%, 24%);
     --watch-body-color: hsl(350, 71%, 35%);
+
+    /* hand rotation variables */
+    --sec-transform: 0deg;
+    --min-transform: 0deg;
+    --hr-transform: 0deg;
 }
 
 body {
@@ -57,6 +63,18 @@ h1 {
 #second {
     transform-origin: 300px 300px;
     transition: transform .5s ease-in-out;
+}
+
+#second {
+    transform: rotate(var(--sec-transform));
+}
+
+#minute {
+    transform: rotate(var(--min-transform));
+}
+
+#hour {
+    transform: rotate(var(--hr-transform));
 }
 
 .container button {

@@ -7,7 +7,7 @@ const date = new Date();
 const hr = date.getHours();
 const min = date.getMinutes();
 const sec = date.getSeconds();
-/*Adjust the hand position*/
+/*Adjust the initial hand position*/
 let hrPosition = (hr * 360 / 12) + (min * (360 / 60) / 12);
 let minPosition = (min * 360 / 60) + (sec * (360 / 60) / 60);
 let secPosition = sec * 360 / 60;
@@ -22,9 +22,11 @@ function updateWatch() {
     /* 360deg / 60seconds = 6deg per second */
     secPosition = secPosition + 6;
 
-    hourHand.style.transform = "rotate(" + hrPosition + "deg)";
-    minHand.style.transform = "rotate(" + minPosition + "deg)";
-    secHand.style.transform = "rotate(" + secPosition + "deg)";
+    const root = document.querySelector(':root');
+
+    root.style.setProperty('--hr-transform', `${hrPosition}deg`);
+    root.style.setProperty('--min-transform', `${minPosition}deg`);
+    root.style.setProperty('--sec-transform', `${secPosition}deg`);
 }
 
 const interval = setInterval(updateWatch, 1000);
