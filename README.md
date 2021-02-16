@@ -12,6 +12,10 @@ A pocket watch company required a logo. Pocket watches bring both style and accu
 The color is adjusted using three main buttons. One button controls the watch's body, one controls the face, and the last controls the watch's hands. The watch animation is done using the transform rotate property which updates at a set interval(every second). 
 
 ---
+## Honorable Mentions
+* Dustin - for "clicking the shit out of it in Firefox and in Chrome" 
+
+---
 ## Attributions
 ### SVG
 * [SVGOMG](https://jakearchibald.github.io/svgomg/) helped optimize the SVG included on the assignment
