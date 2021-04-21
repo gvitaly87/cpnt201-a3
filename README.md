@@ -1,4 +1,4 @@
-# CPNT201 - Assignment 3 - SVG Graphic
+# Pocket Watch SVG updates the time, and sets the watch's color
 ## General Information
 * Course: CPNT-201 Web Design Tools and Techniques
 * Author: [Vitaly Gins](https://github.com/gvitaly87) - Repository owner and maintainer.
