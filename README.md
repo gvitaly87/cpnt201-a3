@@ -3,8 +3,8 @@
 * Course: CPNT-201 Web Design Tools and Techniques
 * Author: [Vitaly Gins](https://github.com/gvitaly87) - Repository owner and maintainer.
 * Github Links:
-  * [GH repo](https://github.com/gvitaly87/cpnt201-a3)
-  * [GH Pages site](https://gvitaly87.github.io/cpnt201-a3/)
+  * [GH repo](https://github.com/gvitaly87/pocket-watch-moving-svg)
+  * [GH Pages site](https://gvitaly87.github.io/pocket-watch-moving-svg)
 
 ### Context
 A pocket watch company required a logo. Pocket watches bring both style and accuracy, and so should their logo. The logo is designed so that the user can customize its color scheme. The logo is also showing the exact time on the users computer by animating the SVG.
